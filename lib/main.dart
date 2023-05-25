@@ -164,7 +164,7 @@ class _HomePageState extends State<HomePage> {
         User user = authService.currentUser()!;
         return Scaffold(
           appBar: AppBar(
-            title: Text("버킷 리스트"),
+            title: Text("소망이의 버킷 리스트"),
             actions: [
               TextButton(
                 child: Text(
